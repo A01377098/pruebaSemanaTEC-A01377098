@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Función que calcula la matriz resultante "C" después de aplicar la operación convolución de A*B=
 # EJERCICIO 28 DE OCTUBRE 
 # Eva Denisse Vargas Sosa A01377098
