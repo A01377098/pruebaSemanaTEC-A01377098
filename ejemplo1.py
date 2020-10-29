@@ -1,4 +1,5 @@
 import cv2 
+import numpy as np
 
 imagen = cv2.imread("imagen.jpg")
 imagen = cv2.cvtColor(imagen, cv2.COLOR_BGR2RGB)
@@ -21,5 +22,8 @@ imagen[0][2] = 0
 
 cv2.imwrite("grayimagen.jpg", imagen)
 
+Matriz = np.zeros((256, 256), np.float32)
+imagen = cv2.cvtColor(Matriz, cv2.COLOR_GRAY2BGR)
+print (imagen.shape)
 
 
