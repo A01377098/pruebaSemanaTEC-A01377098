@@ -23,7 +23,11 @@ imagen[0][2] = 0
 cv2.imwrite("grayimagen.jpg", imagen)
 
 Matriz = np.zeros((256, 256), np.float32)
+print (Matriz.shape)
+cv2.imwrite("MatrizImagen.jpg", Matriz)
 imagen = cv2.cvtColor(Matriz, cv2.COLOR_GRAY2BGR)
 print (imagen.shape)
+cv2.imwrite("MatrizColorImagen.jpg", imagen)
+
 
 
